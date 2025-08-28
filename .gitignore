@@ -1,0 +1,90 @@
+# MetaTrader 5 관련 파일들
+*.ex5
+*.ex4
+*.log
+
+# 컴파일된 파일들
+/MQL5/Experts/*.ex5
+/MQL5/Include/**/*.ex5
+/MQL5/Libraries/*.ex5
+/MQL5/Scripts/*.ex5
+/MQL5/Indicators/*.ex5
+
+# 임시 파일들
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# MetaTrader 데이터 파일들
+*.hst
+*.fxt
+*.tck
+*.dat
+
+# 로그 파일들
+*.log
+/Logs/
+/logs/
+
+# 설정 파일들 (개인 설정)
+*.ini
+*.set
+
+# JSON 상태 및 이벤트 파일들 (런타임 생성)
+status_*.json
+*_alert_*.json
+trendline_alert_*.json
+
+# 백업 파일들
+*.bak
+*.backup
+*.old
+
+# IDE/에디터 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows 관련
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# 컴파일러 관련
+*.obj
+*.pdb
+*.idb
+*.ilk
+
+# 테스트 관련
+/TestResults/
+/test_*.json
+
+# 개인 설정 파일들
+config.local.*
+settings.local.*
+
+# 런타임 생성 파일들
+*.runtime
+*.cache
+
+# MetaTrader Terminal 특정 파일들
+/Terminal/
+/Tester/
+/History/
+/Profiles/
+/templates/
+
+# 문서화 관련 (선택사항)
+# *.pdf
+# *.doc
+# *.docx
+
+# 압축 파일들
+*.zip
+*.rar
+*.7z
+*.tar.gz
